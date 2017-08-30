@@ -8,9 +8,9 @@
 <channel>
 	<title>Comments on: About</title>
 	<atom:link href="http://127.0.0.1/wordpress/about/feed/" rel="self" type="application/rss+xml" />
-	<link>http://test.livepowerfully.in</link>
+	<link>http://www.livepowerfully.in</link>
 	<description>Redefine the possible in your life</description>
-	<lastBuildDate>Wed, 30 Aug 2017 08:35:26 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 30 Aug 2017 09:12:10 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.8.1</generator>
