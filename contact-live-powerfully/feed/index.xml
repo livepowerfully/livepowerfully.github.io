@@ -6,11 +6,11 @@
 	
 	>
 <channel>
-	<title>Comments for Live Powerfully | Inspirational Coaching By Yashpal Kadam</title>
-	<atom:link href="http://127.0.0.1/wordpress/comments/feed/" rel="self" type="application/rss+xml" />
+	<title>Comments on: Contact Live Powerfully</title>
+	<atom:link href="http://127.0.0.1/wordpress/contact-live-powerfully/feed/" rel="self" type="application/rss+xml" />
 	<link>http://test.livepowerfully.in</link>
 	<description>Redefine the possible in your life</description>
-	<lastBuildDate>Wed, 30 Aug 2017 08:35:25 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 30 Aug 2017 08:35:27 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.8.1</generator>
