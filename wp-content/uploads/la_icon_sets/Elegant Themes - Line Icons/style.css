@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Elegant Themes - Line Icons';
-    src:    url('./fonts/icomoon.eot?ry7bfm');
-    src:    url('./fonts/icomoon.eot?ry7bfm#iefix') format('embedded-opentype'),
-        url('./fonts/icomoon.ttf?ry7bfm') format('truetype'),
-        url('./fonts/icomoon.woff?ry7bfm') format('woff'),
-        url('./fonts/icomoon.svg?ry7bfm#icomoon') format('svg');
+    src:    url('http://test.livepowerfully.in/wp-content/uploads/la_icon_sets/Elegant Themes - Line Icons/fonts/icomoon.eot?ry7bfm');
+    src:    url('http://test.livepowerfully.in/wp-content/uploads/la_icon_sets/Elegant Themes - Line Icons/fonts/icomoon.eot?ry7bfm#iefix') format('embedded-opentype'),
+        url('http://test.livepowerfully.in/wp-content/uploads/la_icon_sets/Elegant Themes - Line Icons/fonts/icomoon.ttf?ry7bfm') format('truetype'),
+        url('http://test.livepowerfully.in/wp-content/uploads/la_icon_sets/Elegant Themes - Line Icons/fonts/icomoon.woff?ry7bfm') format('woff'),
+        url('http://test.livepowerfully.in/wp-content/uploads/la_icon_sets/Elegant Themes - Line Icons/fonts/icomoon.svg?ry7bfm#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }

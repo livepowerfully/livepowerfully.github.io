@@ -7,10 +7,10 @@
 	>
 <channel>
 	<title>Comments on: Contact Us</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../../index.html</link>
+	<atom:link href="http://127.0.0.1/wordpress/contact/feed/" rel="self" type="application/rss+xml" />
+	<link>http://test.livepowerfully.in</link>
 	<description>Redefine the possible in your life</description>
-	<lastBuildDate>Tue, 29 Aug 2017 22:01:39 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 30 Aug 2017 08:19:58 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.8.1</generator>
