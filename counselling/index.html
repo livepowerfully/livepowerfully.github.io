@@ -231,7 +231,7 @@ qp('track', 'ViewContent');
 														<input type="text" name="sender-name" value="" placeholder="Leave this field blank">
 													</div>
 													<div class="field-submit">
-														<button type="submit" name="Schedule a Session" value="Schedule a Session" class="button">Schedule a Session</button>
+														<button type="submit" name="Schedule a Session" value="Schedule a Session" class="button" id="leadgenerated">Schedule a Session</button>
 														<span class="loader hidden-xs-up"></span>
 													</div>
 												</fieldset>
@@ -980,6 +980,19 @@ qp('track', 'ViewContent');
 		}
 	</script>
 	<!-- Script for integration of google form ends -->
+
+
+<!-- Quora event script starts-->
+
+<!-- The below method uses jQuery, but that is not required -->
+
+<!-- Add event to the button's click handler -->
+<script type="text/javascript">
+$('#leadgenerated').click(function() {
+qp('track', 'GenerateLead'); // Call this function when inline action happens);
+});
+</script>
+<!-- Quora event script ends-->
 
 
 	<!--Start of Tawk.to Script-->
