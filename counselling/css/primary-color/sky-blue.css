@@ -1,0 +1,1401 @@
+/*	Theme's primary color: SKY BLUE
+
+sky blue 1 -  #384b54 / rgb(56, 75, 84)
+sky blue 2 -  #507385 / rgb(80, 115, 133)
+sky blue 3 -  #6b9bb3 / rgb(107, 155, 179)
+sky blue 4 -  #adcad9 / rgb(173, 202, 217)
+sky blue 5 -  #445761 / rgb(68, 87, 97)
+sky blue 6 -  #839ca8 / rgb(131, 156, 168)
+sky blue 7 -  #a3b6bf / rgb(163, 182, 191)
+sky blue 8 -  #cfdee5 / rgb(207, 222, 229)
+sky blue 9 -  #edf1f2 / rgb(237, 241, 242)
+sky blue 10 - #ebf5fa / rgb(235, 245, 250)
+sky blue 11 - #f0f6f9 / rgb(240, 246, 249)
+sky blue 12 - #266484 / rgb(38, 100, 132)
+sky blue 13 - #00bcd4 / rgb(0, 188, 212)
+sky blue 14 - #00a5d4 / rgb(0, 165, 212)
+*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 1 - #384b54 / rgb(56, 75, 84)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+	color: #384b54;
+}
+.text-primary-color {
+	color: #384b54 !important;
+}
+
+/* Header Menu */
+#primary-nav ul ul li a:hover,
+#primary-nav ul ul li.current-menu-item a:hover,
+#primary-nav ul ul li.sfHover > a {
+	color: #384b54;
+}
+@media (min-width: 992px) {
+	body.sticky-menu-active #header {
+		background: rgba(56, 75, 84, 0.9); /* #384b54 */
+	}
+}
+.sidr .dropdown-toggle {
+	background-color: rgba(56, 75, 84, 0.7); /* #384b54; */
+}
+
+/* Homepage Hero */
+#home-header > .stripe-upper-bg::before {
+	/* background-image: 2 colors - see in "Sky Blue 2" */
+}
+
+/* Hero Image, Hero Slider, Page Title, Subheader Navigation */
+#hero-content .content-wrapper::before {
+	/* background-image: 2 colors - see in "Sky Blue 2" */
+}
+#hero-content.gradient-bg .content-wrapper::before {
+	background: #384b54;
+}
+#hero-content.image-bg.full-width-image .hero-banner::before {
+	background-image: -webkit-linear-gradient(15deg, rgba(56, 75, 84, 0.95), rgba(56, 75, 84, 0.9) 40%, rgba(56, 75, 84, 0.2));
+	background-image: -o-linear-gradient(15deg, rgba(56, 75, 84, 0.95), rgba(56, 75, 84, 0.9) 40%, rgba(56, 75, 84, 0.2));
+	background-image: linear-gradient(15deg, rgba(56, 75, 84, 0.95), rgba(56, 75, 84, 0.9) 40%, rgba(56, 75, 84, 0.2)); /* #384b54 */
+}
+
+/* Stripe Sections */
+.stripe-primary-color-gradient-bg {
+	/* background-image: 2 colors - see in "Sky Blue 2" */
+}
+.stripe-upper-bg-transparent > .stripe-upper-bg::before {
+	background-color: #384b54;
+}
+.stripe-upper-bg-primary-gradient > .stripe-upper-bg::before {
+	background-color: #384b54;
+}
+.stripe-upper-bg-mix-gradient > .stripe-upper-bg::before {
+	background-color: #384b54;
+}
+.stripe-primary-color-gradient-bg.dots-bg > .stripe-upper-bg::before {
+	background-image: -webkit-linear-gradient(top, rgba(56, 75, 84, 0.5), rgba(56, 75, 84, 0));
+	background-image: -o-linear-gradient(top, rgba(56, 75, 84, 0.5), rgba(56, 75, 84, 0));
+	background-image: linear-gradient(to bottom, rgba(56, 75, 84, 0.5), rgba(56, 75, 84, 0)); /* #384b54 */
+}
+.stripe-primary-color-gradient-bg.dots-bg > .stripe-upper-bg::after {
+	background-image: -webkit-linear-gradient(bottom, rgba(56, 75, 84, 0.5), rgba(56, 75, 84, 0));
+	background-image: -o-linear-gradient(bottom, rgba(56, 75, 84, 0.5), rgba(56, 75, 84, 0));
+	background-image: linear-gradient(to top, rgba(56, 75, 84, 0.5), rgba(56, 75, 84, 0)); /* #384b54 */
+}
+
+/* Tabs */
+.tabs .tabs-nav .tabs-list li.active a {
+	color: #384b54;
+}
+.tabs-full-width .tabs-nav .tabs-list li.active a {
+	color: #384b54;
+}
+
+/* Twitter Feed */
+.twitter-feed.tweet-boxes .tweet_screen_name {
+	color: #384b54;
+}
+.twitter-feed.tweet-boxes .tweet_text {
+	color: #384b54;
+}
+
+/* Pricing Table */
+.pricing-table .features li[data-tooltip]:hover {
+	color: #384b54;
+}
+
+/* Footer */
+#footer-bottom {
+	background-color: #384b54;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 2 - #507385 / rgb(80, 115, 133)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+blockquote p {
+	color: #507385;
+}
+.text-blockquote {
+	color: #507385;
+}
+
+/* Header Menu */
+#primary-nav ul ul li a {
+	color: #507385;
+}
+.sidr {
+	background-color: #507385;
+}
+.sidr ul li,
+.sidr .sidr-class-sf-mega-section {
+	background-color: #507385;
+}
+
+/* Homepage Hero */
+#home-header > .stripe-upper-bg::before { /* !!! 2 colors */
+	background-image: -webkit-linear-gradient(135deg, #384b54, rgba(56, 75, 84, 0.9) 18%, rgba(80, 115, 133, 0.8));
+	background-image: -o-linear-gradient(135deg, #384b54, rgba(56, 75, 84, 0.9) 18%, rgba(80, 115, 133, 0.8));
+	background-image: linear-gradient(135deg, #384b54, rgba(56, 75, 84, 0.9) 18%, rgba(80, 115, 133, 0.8)); /* #384b54, #507385 */
+}
+
+/* Hero Image, Hero Slider, Page Title, Subheader Navigation */
+#hero-content .content-wrapper::before { /* !!! 2 colors */
+	background-image: -webkit-linear-gradient(top, #384b54 200px, rgba(80, 115, 133, 0.6));
+	background-image: -o-linear-gradient(top, #384b54 200px, rgba(80, 115, 133, 0.6));
+	background-image: linear-gradient(to bottom, #384b54 200px, rgba(80, 115, 133, 0.6)); /* #507385 */
+}
+
+/* Stripe Sections */
+.stripe-primary-color-bg {
+	background-color: #507385;
+}
+.stripe-primary-color-gradient-bg { /* !!! 2 colors */
+	background-image: -webkit-linear-gradient(135deg, #384b54, #507385);
+	background-image: -o-linear-gradient(135deg, #384b54, #507385);
+	background-image: linear-gradient(135deg, #384b54, #507385);
+}
+.stripe-upper-bg-primary-gradient > .stripe-upper-bg::before {
+	/* background-image: 2 colors - see in "Sky Blue 13" */
+}
+@media (max-width: 991px) {
+	.stripe-left-col-fullwidth-grey.stripe-primary-color-bg .columns:last-child,
+	.stripe-right-col-fullwidth-grey.stripe-primary-color-bg .columns:first-child {
+		background-color: #507385;
+	}
+}
+
+/* Accordion / Toggle */
+.toggle-trigger:hover::after {
+	color: #507385;
+}
+
+/*  Pricing Table */
+.pricing-table .footer .button-medium:not(.button-grey):not(.button-colored) {
+	color: #507385;
+}
+
+/* Preview Image Overlay & Lightbox Overlay */
+.no-touch-screen .video-preview a.mfp-lightbox:hover .overlay {
+	background-color: rgba(80, 115, 133, 0.3); /* #507385 */
+}
+
+/* Sidebar */
+#sidebar .widget-banner::before {
+	background-color: #507385;
+}
+#sidebar .widget-banner.primary-color-bg::before {
+	background-color: #507385;
+}
+#sidebar .widget-banner.primary-color-bg .banner-text .banner-description::before {
+	background-color: rgba(80, 115, 133, 0.7); /* #507385 */
+}
+#sidebar .widget-tag-cloud a:hover {
+	background-color: #507385;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 3 - #6b9bb3 / rgb(107, 155, 179)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+.text-primary-color-saturated a:hover {
+	color: #6b9bb3;
+}
+
+/* Images */
+.img-geometric-bg-left.img-round::after,
+.img-geometric-bg-right.img-round::after {
+	background-color: rgba(107, 155, 179, 0.03); /* #6b9bb3; */
+}
+.stripe-primary-color-pale-bg [class*="img-geometric-bg-"].img-round::after,
+.stripe-pale-bg [class*="img-geometric-bg-"].img-round::after {
+	background-color: rgba(107, 155, 179, 0.05); /* #6b9bb3; */
+}
+.img-geometric-bg-left:not(.img-round)::before,
+.img-geometric-bg-right:not(.img-round)::before {
+	background: rgba(107, 155, 179, 0.15); /* #6b9bb3; */
+}
+
+/* Header Menu */
+#primary-nav > ul > li.button-item > a {
+	background-color: #6b9bb3;
+}
+#primary-nav > ul > li.button-item > a:hover,
+#primary-nav > ul > li.button-item.sfHover > a {
+	background-color: rgba(107, 155, 179, 0.8); /* #6b9bb3 */
+}
+#primary-nav ul ul li.current-menu-item > a,
+#primary-nav ul ul li.current-menu-item > a:hover,
+#primary-nav ul ul li.current-menu-ancestor > a {
+	background-color: rgba(107, 155, 179, 0.2) !important; /* #6b9bb3 */
+}
+#primary-nav .sf-mega .sf-mega-section li.current-menu-item > a {
+	background-color: rgba(107, 155, 179, 0.2); /* #6b9bb3 */
+}
+.sidr .sidr-inner:first-child {
+	background-color: #6b9bb3;
+}
+
+/* Homepage Hero */
+#home-hero-content .top-square {
+	background-color: #6b9bb3;
+}
+
+/* Hero Image, Hero Slider, Page Title, Subheader Navigation */
+#hero-content .hero-caption p:first-child {
+	color: #6b9bb3;
+}
+
+/* Stripe Sections */
+.stripe.semicircle-bg::before {
+	background: -webkit-radial-gradient(rgba(107, 155, 179, 0.09) 0, rgba(107, 155, 179, 0.09) 37%, rgba(107, 155, 179, 0.045) 37%);
+	background: -o-radial-gradient(rgba(107, 155, 179, 0.09) 0, rgba(107, 155, 179, 0.09) 37%, rgba(107, 155, 179, 0.045) 37%);
+	background: radial-gradient(circle at center, rgba(107, 155, 179, 0.09) 0, rgba(107, 155, 179, 0.09) 37%, rgba(107, 155, 179, 0.045) 37%); /* #6b9bb3 */
+}
+
+/* Picture Boxes */
+.picture-boxes.top-picture-box.box-filled-bg .box-image:hover::after {
+	background-color: #6b9bb3;
+}
+
+/* Icon Boxes */
+.icon-boxes.top-icon-box.icon-large-round-bg .box-icon {
+	background-color: #6b9bb3;
+}
+.icon-boxes.top-icon-box.icon-large-round-bg .box-icon.primary-color-bg,
+.icon-boxes.top-icon-box.icon-medium-round-bg .box-icon.primary-color-bg {
+	background-color: #6b9bb3;
+}
+.icon-boxes.top-icon-box.icon-medium-round-bg .box-icon {
+	background-color: #6b9bb3;
+}
+.icon-boxes.top-icon-box.icon-large .box-icon.primary-color-light i,
+.icon-boxes.top-icon-box.icon-small .box-icon.primary-color-light i,
+.icon-boxes.top-icon-box.box-filled-bg .box-icon.primary-color-light i {
+	color: #6b9bb3;
+}
+.icon-boxes.left-icon-box.icon-small-round-bg .box-icon.primary-color-bg {
+	background-color: #6b9bb3;
+}
+.icon-boxes.left-icon-box.icon-large .box-icon.primary-color-light i,
+.icon-boxes.left-icon-box.icon-medium .box-icon.primary-color-light i,
+.icon-boxes.left-icon-box.icon-heading .box-icon.primary-color-light i {
+	color: #6b9bb3;
+}
+
+/* Stages */
+.stages .box-icon {
+	background-color: #6b9bb3;
+}
+.stages .box-icon.primary-color-bg {
+	background-color: #6b9bb3;
+}
+
+/* Feature List */
+.feature-list.numeric-list .box-icon.primary-color-bg {
+	background-color: #6b9bb3;
+}
+.feature-list.check-list .box-icon.primary-color-bg {
+	border-color: #6b9bb3;
+}
+.feature-list.check-list .box-icon.primary-color-bg i {
+	color: #6b9bb3;
+}
+.feature-list.arrow-list .box-icon.primary-color i {
+	color: rgba(107, 155, 179, 0.7); /* #6b9bb3 */
+}
+
+/* Fancy Icon */
+.fancy-icon .box-icon::after {
+	color: #6b9bb3;
+}
+
+/* Testimonials */
+.testimonial-boxes .testimonial-image span { /* placeholder for the author's photo */
+	background-color: #6b9bb3;
+}
+.testimonial-aside .testimonial-item .author-image span {
+	background-color: #6b9bb3;
+}
+.testimonial-main-style-1 .testimonial-item .author-image span,
+.testimonial-main-style-2 .testimonial-item .author-image span {
+	background-color: #6b9bb3;
+}
+
+/* Blog */
+.blog-list-layout article .post-date .day {
+	color: #6b9bb3;
+}
+.blog-list-layout article.sticky-newest .post-date .year {
+	color: #6b9bb3;
+}
+
+/* Pricing Table */
+.pricing-table .description {
+	color: #6b9bb3;
+}
+.pricing-table .footer .button-medium:not(.button-grey):not(.button-colored) {
+	border-color: #6b9bb3;
+}
+.pricing-table .footer .button-medium:not(.button-grey):not(.button-colored)::before {
+	background: #6b9bb3;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 4 - #adcad9 / rgb(173, 202, 217)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+.quote-marks::before {
+	color: rgba(173, 202, 217, 0.5); /* #adcad9 */
+}
+
+/* Homepage Hero */
+@media (min-width: 1681px) {
+	#home-hero-content .top-square {
+		background-color: #adcad9;
+	}
+}
+
+/* Hero Image, Hero Slider, Page Title, Subheader Navigation */
+#hero-content.image-bg .hero-caption::before {
+	background-color: #adcad9;
+}
+
+/* Fancy Icon */
+.fancy-icon .box-icon {
+	border-color: #adcad9;
+}
+
+/* Round Thumbnails */
+.round-thumbnails img {
+	border-color: #adcad9;
+}
+
+/* Contact Info & Google Map */
+.stripe-contact-details .contact-details {
+	background-color: #adcad9;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 5 - #445761 / rgb(68, 87, 97)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+body {
+	color: #445761;
+}
+.text-body-color {
+	color: #445761 !important;
+}
+.text-primary-color-muted a {
+	color: #445761;
+}
+
+/* Hero Image, Hero Slider, Page Title, Subheader Navigation */
+#subheader-bar .sub-nav li a:hover,
+#subheader-bar .sub-nav li.current-menu-item a {
+	color: #445761;
+}
+.breadcrumb-nav a:hover {
+	color: #445761;
+}
+
+/* Tabs */
+.stripe-secondary-color-bg .tabs .tabs-nav .tabs-list a {
+    color: rgba(68, 87, 97, 0.75); /* #445761 */
+}
+.stripe-secondary-color-bg .tabs .tabs-nav .tabs-list a:hover {
+	color: #445761;
+}
+.tabs-full-width .tabs-nav .stripe-secondary-color-bg .tabs-list a {
+	color: rgba(68, 87, 97, 0.75); /* #445761 */
+}
+.tabs-full-width .tabs-nav .stripe-secondary-color-bg .tabs-list a:hover {
+	color: #445761;
+}
+
+/* Pagination */
+.post-pagination a:hover {
+	color: #445761;
+}
+
+/* Single Post */
+.comment-list .comment-meta .date a:hover,
+.comment-list .comment-meta .date a:hover * {
+	color: #445761;
+}
+.comment-list .comment-reply-link {
+	color: #445761;
+}
+
+/* Standard Table */
+.dark-colored-bg table th,
+.dark-colored-bg table thead td {
+	border-right-color: rgba(68, 87, 97, 0.7) !important; /* #445761 */
+}
+.dark-colored-bg table td {
+	border-color: rgba(68, 87, 97, 0.7) !important; /* #445761 */
+}
+
+/* Footer */
+#footer .title {
+	color: #445761;
+}
+#footer .footer-menu a:hover {
+	color: #445761;
+}
+#footer .phone-number:hover {
+	color: #445761;
+}
+#footer .contact-email a:hover {
+	color: #445761;
+}
+#footer .recent-posts a:hover {
+	color: #445761;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 6 - #839ca8 / rgb(131, 156, 168)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+.text-primary-color-muted {
+	color: #839ca8 !important;
+}
+ol.custom-counter > li::before {
+	color: #839ca8;
+}
+
+/* Forms */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+textarea,
+select {
+	border-color: #839ca8;
+}
+.select-wrapper::after {
+	border-top-color: #839ca8;
+}
+
+/* Header Menu */
+#primary-nav ul ul li a:hover,
+#primary-nav ul ul li.current-menu-item a:hover,
+#primary-nav ul ul li.sfHover > a {
+	background-color: rgba(131, 156, 168, 0.1); /* #839ca8 */
+}
+#primary-nav ul ul li:not(.sf-mega-section) li {
+	background-image: -webkit-linear-gradient(left, rgba(131, 156, 168, 0.1), rgba(131, 156, 168, 0.1));
+	background-image: -o-linear-gradient(left, rgba(131, 156, 168, 0.1), rgba(131, 156, 168, 0.1));
+	background-image: linear-gradient(to right, rgba(131, 156, 168, 0.1), rgba(131, 156, 168, 0.1)); /* #839ca8 */
+}
+#primary-nav .sf-arrows > li:not(.button-item) > .sf-with-ul:hover::after,
+#primary-nav .sf-arrows > li:not(.button-item).sfHover > .sf-with-ul::after {
+	color: #839ca8;
+}
+#primary-nav .sf-arrows ul .sf-with-ul::after {
+	color: #839ca8;
+}
+.sidr ul li,
+.sidr .sidr-class-sf-mega-section {
+	border-top-color: #839ca8;
+}
+
+/* Hero Image, Hero Slider, Page Title, Subheader Navigation */
+#subheader-bar .sub-nav li a {
+	color: #839ca8;
+}
+.breadcrumb-nav a {
+	color: #839ca8;
+}
+#subheader-bar.extended .container > p:first-child {
+	color: #839ca8;
+}
+
+/* Picture Boxes */
+.picture-boxes.left-picture-box .box-text .sub {
+	color: #839ca8;
+}
+
+/* Icon Boxes */
+.icon-boxes.top-icon-box.icon-large-round-bg.number-icon-box .box-icon .digit,
+.icon-boxes.top-icon-box.icon-medium-round-bg.number-icon-box .box-icon .digit {
+	background-color: #839ca8;
+}
+.dark-colored-bg .icon-boxes.top-icon-box.box-filled-bg .box-text p {
+	color: #839ca8;
+}
+
+/* Carousel Plugin */
+.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
+.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #839ca8;
+}
+.owl-carousel.owl-theme .owl-nav [class*="owl-"]::before {
+	color: #839ca8;
+}
+
+/* Testimonials */
+.testimonial-boxes .columns::before {
+	border-color: rgba(131, 156, 168, 0.2); /* #839ca8 */
+}
+.testimonial-boxes .columns::after {
+	color: rgba(131, 156, 168, 0.03); /* #839ca8 */
+}
+.testimonial-aside .testimonial-item blockquote p {
+	color: #839ca8;
+}
+.testimonial-main-style-1 .cycle-pager span {
+    border-color: #839ca8;
+}
+.testimonial-main-style-1 .cycle-pager span.cycle-pager-active {
+	background-color: #839ca8;
+}
+[class*="testimonial-main-style-"] .cycle-pager .fa {
+	color: #839ca8;
+}
+
+/* Staff */
+.staff-member-profile .contact-email a:hover,
+.staff-member-profile .contact-phone .phone-number:hover {
+	color: #839ca8;
+}
+
+/* Accordion / Toggle */
+.toggle-trigger::after {
+	color: #839ca8;
+}
+
+/* Blog */
+@media (min-width: 768px) {
+	.blog-grid-layout article .post-content::before {
+		color: rgba(131, 156, 168, 0.03); /* #839ca8 */
+	}
+}
+
+/* Pagination */
+.post-pagination a {
+	color: #839ca8;
+}
+
+/* Single Post */
+.comment-list .comment-meta .date a {
+	color: #839ca8;
+}
+
+/* Standard Table */
+[class$="-layout"] table th,
+[class$="-layout"] table thead td {
+	border-color: rgba(131, 156, 168, 0.4); /* #839ca8 */
+	border-bottom-color: rgba(131, 156, 168, 0.8); /* #839ca8 */
+	background-color: rgba(131, 156, 168, 0.1); /* #839ca8 */
+}
+[class$="-layout"] table td {
+	border-color: rgba(131, 156, 168, 0.4); /* #839ca8 */
+}
+table.standard-table.first-col-bg td:first-child {
+	background-color: rgba(131, 156, 168, 0.1); /* #839ca8 */
+}
+table.standard-table.dark-bg-header th {
+	background-color: #839ca8;
+	border-color: #839ca8;
+}
+table.standard-table.dark-bg-header th:last-child {
+	border-right-color: #839ca8;
+}
+table.standard-table.dark-bg-header.first-col-bg th:first-child {
+	border-color: rgba(131, 156, 168, 0.4); /* #839ca8 */
+	border-right-color: #839ca8;
+}
+table.standard-table .footer-trim td {
+	border-bottom-color: rgba(131, 156, 168, 0.8); /* #839ca8 */
+}
+.stripe-light-grey-bg table th,
+.stripe-light-grey-bg table thead td,
+.stripe-primary-color-pale-bg table th,
+.stripe-primary-color-pale-bg table thead td,
+.stripe-primary-color-light-bg table th,
+.stripe-primary-color-light-bg table thead td,
+.stripe-pale-bg table th,
+.stripe-pale-bg table thead td {
+	background-color: rgba(131, 156, 168, 0.05); /* #839ca8 */
+}
+
+/* Pricing Table */
+.pricing-table .header {
+	border-top-color: rgba(131, 156, 168, 0.2); /* #839ca8 */
+}
+.pricing-table .table-column:first-child .header {
+	border-left-color: rgba(131, 156, 168, 0.2); /* #839ca8 */
+}
+.pricing-table .table-column:last-child .header {
+	border-right-color: rgba(131, 156, 168, 0.2); /* #839ca8 */
+}
+.pricing-table .price {
+	background-color: rgba(131, 156, 168, 0.2); /* #839ca8 */
+}
+.pricing-table .table-column:first-child .features {
+	border-left-color: rgba(131, 156, 168, 0.2); /* #839ca8 */
+}
+.pricing-table .table-column:last-child .features {
+	border-right-color: rgba(131, 156, 168, 0.2); /* #839ca8 */
+}
+.pricing-table .footer {
+	background-image: -webkit-linear-gradient(left, rgba(131, 156, 168, 0.2), rgba(131, 156, 168, 0.2));
+	background-image: -o-linear-gradient(left, rgba(131, 156, 168, 0.2), rgba(131, 156, 168, 0.2));
+	background-image: linear-gradient(to right, rgba(131, 156, 168, 0.2), rgba(131, 156, 168, 0.2)); /* #839ca8 */
+}
+.pricing-table .table-column.row-labels .footer {
+	border-top-color: rgba(131, 156, 168, 0.2); /* #839ca8 */
+}
+@media (min-width: 480px) and (max-width: 767px) {
+	.pricing-table.basic .table-column:nth-child(odd) .header,
+	.pricing-table.basic .table-column:nth-child(odd) .features,
+	.pricing-table.extended .table-column:nth-child(even) .header,
+	.pricing-table.extended .table-column:nth-child(even) .features {
+		border-left-color: rgba(131, 156, 168, 0.2); /* #839ca8 */
+	}
+	.pricing-table.basic .table-column:nth-child(even) .header,
+	.pricing-table.basic .table-column:nth-child(even) .features,
+	.pricing-table.extended .table-column:nth-child(odd) .header,
+	.pricing-table.extended .table-column:nth-child(odd) .features {
+		border-right-color: rgba(131, 156, 168, 0.2); /* #839ca8 */
+	}
+}
+@media (max-width: 479px) {
+	.pricing-table .table-column .header,
+	.pricing-table .table-column .features {
+		border-left-color: rgba(131, 156, 168, 0.2) !important; /* #839ca8 */
+		border-right-color: rgba(131, 156, 168, 0.2) !important; /* #839ca8 */
+	}
+}
+
+/* Forms */
+.comment-form ::-webkit-input-placeholder {
+	color: #839ca8;
+}
+.comment-form :-moz-placeholder { /* Firefox 18- */
+	color: #839ca8;
+}
+.comment-form ::-moz-placeholder { /* Firefox 19+ */
+	color: #839ca8;
+}
+.comment-form :-ms-input-placeholder {  
+	color: #839ca8;
+}
+
+/* Contact Info & Google Map */
+.contact-page .contact-info .contact-email a:hover,
+.contact-page .contact-info .contact-phone .phone-number:hover,
+.contact-page .contact-info .contact-fax .phone-number:hover {
+	color: #839ca8;
+}
+
+/* Sidebar */
+#sidebar .widget-tag-cloud a {
+	background-color: #839ca8;
+}
+
+/* Footer */
+#footer .footer-menu a {
+	color: #839ca8;
+}
+#footer .footer-menu a:hover::after {
+	color: #839ca8;
+}
+#footer .contact-phone {
+	color: #839ca8;
+}
+#footer .contact-email {
+	color: #839ca8;
+}
+#footer .recent-posts a {
+	color: #839ca8;
+}
+#footer-bottom .scroll-top {
+	background-color: #839ca8;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 7 - #a3b6bf / rgb(163, 182, 191)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+.text-primary-color-pale {
+	color: #a3b6bf !important;
+}
+
+/* Header Menu */
+#primary-nav .sf-arrows > li:not(.button-item) > .sf-with-ul::after {
+	color: #a3b6bf;
+}
+#mobile-menu-button .fa {
+	color: #a3b6bf;
+}
+#secondary-nav .quick-links .menu-item a {
+	color: #a3b6bf;
+}
+
+/* Hero Image, Hero Slider, Page Title, Subheader Navigation */
+.breadcrumb-nav li::after {
+	color: rgba(163, 182, 191, 0.7); /* #a3b6bf */
+}
+
+/* Staff */
+.staff-member-profile .contact-email .fa {
+	color: #a3b6bf;
+}
+.staff-member-profile .contact-phone .fa {
+	color: #a3b6bf;
+}
+.staff-member-profile .contact-skype .fa {
+	color: #a3b6bf;
+}
+
+/* Accordion / Toggle */
+.accordion.numbered-items .toggle-trigger a:before,
+.toggles.numbered-items .toggle-trigger a:before {
+	color: #a3b6bf;
+}
+
+/* Stat Data */
+.dark-colored-bg .stat-data[class*="-cols"] .columns::before {
+	border-left-color: #a3b6bf;
+}
+
+/* Standard Table */
+table.standard-table.dark-bg-header th {
+	border-right-color: #a3b6bf;
+}
+
+/* Contact Info & Google Map */
+.contact-page .contact-info .contact-email .fa {
+	color: #a3b6bf;
+}
+.contact-page .contact-info .contact-phone .fa {
+	color: #a3b6bf;
+}
+.contact-page .contact-info .contact-fax .fa {
+	color: #a3b6bf;
+}
+.contact-page .contact-info .contact-skype .fa {
+	color: #a3b6bf;
+}
+@media (max-width: 767px) {
+	.contact-page #sidebar::before {
+		border-top-color: #a3b6bf;
+	}
+}
+
+/* Footer */
+#footer .footer-menu a::after {
+	color: rgba(163, 182, 191, 0.7); /* #a3b6bf */
+}
+#footer-bottom * {
+	color: #a3b6bf;
+}
+
+/* Typography */
+.note-separator {
+	border-bottom-color: #a3b6bf;
+}
+.note-separator.grey-separator {
+	border-bottom-color: #a3b6bf;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 8 - #cfdee5 / rgb(207, 222, 229)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+.text-primary-color-light {
+	color: #cfdee5 !important;
+}
+.dark-colored-bg .pullquote blockquote cite {
+	color: #cfdee5;
+}
+
+/* Header Menu */
+#primary-nav > ul > li:not(.button-item) > a:hover,
+#primary-nav > ul > li:not(.button-item).sfHover > a {
+	color: #cfdee5;
+}
+#mobile-menu-button:hover .fa {
+	color: #cfdee5;
+}
+#mobile-menu-close .fa {
+	color: #cfdee5;
+}
+#secondary-nav .quick-links .menu-item a:hover {
+	color: #cfdee5;
+}
+#secondary-nav .quick-links .phone-number {
+	color: #cfdee5;
+}
+
+/* Hero Image, Hero Slider, Page Title, Subheader Navigation */
+#subheader-bar .sub-nav li span {
+	color: #cfdee5;
+}
+
+/* Icon Boxes */
+.icon-boxes.top-icon-box.icon-large-round-bg .box-icon::before {
+	border-color: rgba(207, 222, 229, 0.7); /* #cfdee5; */
+}
+.icon-boxes.top-icon-box.icon-large-round-bg .box-icon.primary-color-bg::before,
+.icon-boxes.top-icon-box.icon-medium-round-bg .box-icon.primary-color-bg::before {
+	border-color: rgba(207, 222, 229, 0.7); /* #cfdee5; */
+}
+.icon-boxes.top-icon-box.icon-medium-round-bg .box-icon::before {
+	border-color: rgba(207, 222, 229, 0.7); /* #cfdee5; */
+}
+
+/* Stages */
+.stages .box-icon::before {
+	border-color: rgba(207, 222, 229, 0.7); /* #cfdee5; */
+}
+.stages .box-icon.primary-color-bg::before {
+	border-color: rgba(207, 222, 229, 0.7); /* #cfdee5; */
+}
+
+/* Testimonials */
+.testimonial-aside::before {
+	color: #cfdee5;
+}
+.dark-colored-bg .testimonial-main-style-1 .testimonial-item .author-info span {
+	color: #cfdee5;
+}
+.testimonial-main-style-2 > .testimonial-item:first-child {
+	border-right-color: #cfdee5;
+}
+.testimonial-main-style-2 .cycle-carousel-wrap .testimonial-item.cycle-slide-active {
+	border-right-color: #cfdee5;
+}
+.dark-colored-bg .testimonial-main-style-2 .testimonial-item .author-info span {
+	color: #cfdee5;
+}
+.dark-colored-bg .testimonial-main-style-1 .cycle-pager span {
+    border-color: #cfdee5;
+}
+.dark-colored-bg .testimonial-main-style-1 .cycle-pager span.cycle-pager-active {
+	background-color: #cfdee5;
+}
+.dark-colored-bg [class*="testimonial-main-style-"] .cycle-pager .fa {
+	color: #cfdee5;
+}
+
+/* Tabs */
+.dark-colored-bg .tabs .tabs-nav .tabs-list a {
+    color: #cfdee5;
+}
+.tabs-full-width .tabs-nav .dark-colored-bg .tabs-list a {
+	color: #cfdee5;
+}
+
+/* Stat Data */
+.dark-colored-bg .stat-data .fact-statement cite a {
+	color: #cfdee5;
+}
+
+/* Twitter Feed */
+.dark-colored-bg .twitter-feed-wrapper .twitter-feed .tweet_time a {
+	color: #cfdee5;
+}
+
+/* Footer */
+#footer.footer-style-1 .columns:not(:first-child):not(:nth-child(2)),
+#footer.footer-style-2 .columns:not(:first-child) {
+	border-left-color: #cfdee5;
+}
+@media (min-width: 571px) and (max-width: 991px) {
+	#footer.footer-style-1 .col-md-3 .title {
+		border-bottom-color: #cfdee5;
+	}
+}
+@media (min-width: 571px) and (max-width: 767px) {
+	#footer.footer-style-2 .col-sm-4 .title {
+		border-bottom-color: #cfdee5;
+	}
+}
+
+/* Other Elements and Misc. */
+.error-404 {
+	color: #cfdee5;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 9 - #edf1f2 / rgb(237, 241, 242)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+.stripe[class*="stripe-light-grey"] .underline-small::after {
+	background-color: #edf1f2;
+}
+
+/* Stripe Sections */
+.stripe-light-grey-bg {
+	background-color: #edf1f2;
+}
+@media (min-width: 992px) {
+	#main-content.page-left-col .stripe-light-grey-gradient-bg {
+		background-color: #edf1f2;
+		background: -webkit-linear-gradient(right, rgba(237, 241, 242, 0), #edf1f2 400px);
+		background: -o-linear-gradient(right, rgba(237, 241, 242, 0), #edf1f2 400px);
+		background: linear-gradient(to left, rgba(237, 241, 242, 0), #edf1f2 400px); /* #edf1f2 */
+	}
+}
+@media (max-width: 991px) {
+	#main-content.page-left-col .stripe-light-grey-gradient-bg,
+	#main-content.page-left-col .stripe-light-grey-bg {
+		background-color: #edf1f2;
+	}
+}
+.stripe-light-grey-bg.dots-bg > .stripe-upper-bg::before {
+	background-image: -webkit-linear-gradient(top, rgba(237, 241, 242, 1), rgba(237, 241, 242, 0));
+	background-image: -o-linear-gradient(top, rgba(237, 241, 242, 1), rgba(237, 241, 242, 0));
+	background-image: linear-gradient(to bottom, rgba(237, 241, 242, 1), rgba(237, 241, 242, 0)); /* #edf1f2 */
+}
+.stripe-light-grey-bg.dots-bg > .stripe-upper-bg::after {
+	background-image: -webkit-linear-gradient(bottom, rgba(237, 241, 242, 1), rgba(237, 241, 242, 0));
+	background-image: -o-linear-gradient(bottom, rgba(237, 241, 242, 1), rgba(237, 241, 242, 0));
+	background-image: linear-gradient(to top, rgba(237, 241, 242, 1), rgba(237, 241, 242, 0)); /* #edf1f2 */
+}
+@media (max-width: 991px) {
+	.stripe-left-col-fullwidth-grey .columns:first-child,
+	.stripe-right-col-fullwidth-grey .columns:last-child {
+		background-color: #edf1f2;
+	}
+}
+@media (min-width: 992px) {
+	.stripe-left-col-fullwidth-grey .row {
+		background: -webkit-linear-gradient(left, #edf1f2 50%, transparent 50%);
+		background: -o-linear-gradient(left, #edf1f2 50%, transparent 50%);
+		background: linear-gradient(to right, #edf1f2 50%, transparent 50%);
+	}
+	.stripe-right-col-fullwidth-grey .row {
+		background: -webkit-linear-gradient(right, #edf1f2 50%, transparent 50%);
+		background: -o-linear-gradient(right, #edf1f2 50%, transparent 50%);
+		background: linear-gradient(to left, #edf1f2 50%, transparent 50%);
+	}
+}
+
+/* Fancy Icon */
+.stripe-light-grey-bg .fancy-icon .box-icon {
+	background-color: #edf1f2;
+}
+.stripe-light-grey-bg .fancy-icon .box-icon .inner-border {
+	border-color: #edf1f2;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 10 - #ebf5fa / rgb(235, 245, 250)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+.stripe-primary-color-light-bg .underline-small::after {
+	background-color: #ebf5fa;
+}
+a.text-white:hover {
+	color: #ebf5fa !important;
+}
+
+/* Stripe Sections */
+.stripe-primary-color-light-bg {
+	background-color: #ebf5fa;
+}
+.stripe-primary-color-light-bg.dots-bg > .stripe-upper-bg::before {
+	background-image: -webkit-linear-gradient(top, rgba(235, 245, 250, 1), rgba(235, 245, 250, 0));
+	background-image: -o-linear-gradient(top, rgba(235, 245, 250, 1), rgba(235, 245, 250, 0));
+	background-image: linear-gradient(to bottom, rgba(235, 245, 250, 1), rgba(235, 245, 250, 0)); /* #ebf5fa */
+}
+.stripe-primary-color-light-bg.dots-bg > .stripe-upper-bg::after {
+	background-image: -webkit-linear-gradient(bottom, rgba(235, 245, 250, 1), rgba(235, 245, 250, 0));
+	background-image: -o-linear-gradient(bottom, rgba(235, 245, 250, 1), rgba(235, 245, 250, 0));
+	background-image: linear-gradient(to top, rgba(235, 245, 250, 1), rgba(235, 245, 250, 0)); /* #ebf5fa */
+}
+
+/* Single Post */
+@media (max-width: 991px) {
+	.single-post-details .post-author .author-image img {
+		border-color: #ebf5fa;
+	}
+}
+
+/* Footer */
+#footer-bottom .links a:hover {
+	color: #ebf5fa;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 11 - #f0f6f9 / rgb(240, 246, 249)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+.stripe-primary-color-pale-bg .underline-small::after {
+	background-color: #f0f6f9;
+}
+
+/* Hero Image, Hero Slider, Page Title, Subheader Navigation */
+#hero-content {
+	background-color: #f0f6f9;
+}
+#hero-content.image-bg.hero-subheader-dots::before {
+	background-image: -webkit-linear-gradient(bottom, rgba(240, 246, 249, 0) 130px, #f0f6f9 180px);
+	background-image: -o-linear-gradient(bottom, rgba(240, 246, 249, 0) 130px, #f0f6f9 180px);
+	background-image: linear-gradient(to top, rgba(240, 246, 249, 0) 130px, #f0f6f9 180px); /* #f0f6f9 */
+}
+#hero-content.image-bg .hero-caption::after {
+	background-color: #f0f6f9;
+}
+
+/* Stripe Sections */
+.stripe-primary-color-pale-bg {
+	background-color: #f0f6f9;
+}
+.stripe-primary-color-pale-bg.dots-bg > .stripe-upper-bg::before {
+	background-image: -webkit-linear-gradient(top, rgba(240, 246, 249, 1), rgba(240, 246, 249, 0));
+	background-image: -o-linear-gradient(top, rgba(240, 246, 249, 1), rgba(240, 246, 249, 0));
+	background-image: linear-gradient(to bottom, rgba(240, 246, 249, 1), rgba(240, 246, 249, 0)); /* #f0f6f9 */
+}
+.stripe-primary-color-pale-bg.dots-bg > .stripe-upper-bg::after {
+	background-image: -webkit-linear-gradient(bottom, rgba(240, 246, 249, 1), rgba(240, 246, 249, 0));
+	background-image: -o-linear-gradient(bottom, rgba(240, 246, 249, 1), rgba(240, 246, 249, 0));
+	background-image: linear-gradient(to top, rgba(240, 246, 249, 1), rgba(240, 246, 249, 0)); /* #f0f6f9 */
+}
+
+/* Picture Boxes */
+.picture-boxes.top-picture-box.box-filled-bg .box-image {
+	background-color: #f0f6f9;
+}
+
+/* Icon Boxes */
+.dark-colored-bg .icon-boxes.top-icon-box.box-filled-bg .columns::before {
+	background-color: #f0f6f9;
+}
+
+/* Fancy Image */
+.fancy-picture .box-image {
+	background-color: #f0f6f9;
+}
+
+/* Fancy Icon */
+.stripe-primary-color-light-bg .fancy-icon .box-icon {
+	background-color: #f0f6f9;
+}
+
+/* Forms */
+#subheader-bar .subscription-form input[type="text"],
+#subheader-bar .subscription-form input[type="email"] {
+	background-color: #f0f6f9;
+}
+#subheader-bar .subscription-form input[type="text"]:focus,
+#subheader-bar .subscription-form input[type="email"]:focus {
+	background-color: #f0f6f9;
+}
+
+/* Contact Info & Google Map */
+.stripe-contact-details .contact-email a:hover,
+.stripe-contact-details .contact-phone .phone-number:hover,
+.stripe-contact-details .contact-fax .phone-number:hover {
+	color: #f0f6f9;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 12 - #266484 / rgb(38, 100, 132)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+.text-primary-color-saturated {
+	color: #266484 !important;
+}
+.pullquote:not(.quote-marks) .pullquote-statement:first-child blockquote p {
+	color: #266484;
+}
+.text-black a:hover,
+.text-body-color a:hover,
+.text-primary-color a:hover,
+.text-primary-color-muted a:hover,
+.text-secondary-color a:hover {
+	color: #266484;
+}
+p.text-secondary-color a {
+	color: #266484;
+}
+
+/* Header Menu */
+#primary-nav ul ul li.current-menu-item > a,
+#primary-nav ul ul li.current-menu-item > a:hover,
+#primary-nav ul ul li.current-menu-ancestor > a {
+	color: #266484;
+}
+#primary-nav .sf-mega .sf-mega-section li.current-menu-item > a {
+	color: #266484;
+}
+
+/* Hero Image, Hero Slider, Page Title, Subheader Navigation */
+#hero-content .hero-caption h1 {
+	color: #266484;
+}
+#hero-content .hero-caption p {
+	color: #266484;
+}
+#subheader-bar .action-box > div:first-child p {
+	color: #266484;
+}
+
+/* Icon Boxes */
+.icon-boxes.top-icon-box.icon-large .box-icon.primary-color-dark i,
+.icon-boxes.top-icon-box.icon-small .box-icon.primary-color-dark i,
+.icon-boxes.top-icon-box.box-filled-bg .box-icon.primary-color-dark i {
+	color: #266484;
+}
+.icon-boxes.left-icon-box.icon-large .box-icon.primary-color-dark i,
+.icon-boxes.left-icon-box.icon-medium .box-icon.primary-color-dark i,
+.icon-boxes.left-icon-box.icon-heading .box-icon.primary-color-dark i {
+	color: #266484;
+}
+
+/* Staff */
+.staff-member-profile .contact-email a,
+.staff-member-profile .contact-phone .phone-number,
+.staff-member-profile .contact-skype {
+	color: #266484;
+}
+
+/* Stat Data */
+.stat-data.stat-3-cols .fact-number {
+	color: #266484;
+}
+
+/* Blog */
+.blog-list-layout article .post-content .title a:hover {
+	color: #266484;
+}
+.blog-grid-layout article .post-description .title a:hover {
+	color: #266484;
+}
+
+/* Forms */
+#subheader-bar .subscription-form input[type="submit"] {
+	background-color: rgba(38, 100, 132, 0.75); /* #266484 */
+}
+#subheader-bar .subscription-form input[type="submit"]:hover {
+	background: rgba(38, 100, 132, 0.85); /* #266484 */
+}
+
+/* Contact Info & Google Map */
+.stripe-contact-details .contact-details .title {
+	color: #266484;
+}
+.contact-page .contact-info .contact-email a,
+.contact-page .contact-info .contact-phone .phone-number,
+.contact-page .contact-info .contact-fax .phone-number,
+.contact-page .contact-info .contact-skype {
+	color: #266484;
+}
+.contact-page #sidebar .address-details .title {
+	color: #266484;
+}
+
+/* Sidebar */
+.widget-social-profiles .fa-icon-list li a {
+	background-color: #266484;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 13 - #00bcd4 / rgb(0, 188, 212)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+.text-highlighted {
+	color: #00bcd4 !important;
+}
+a:hover {
+	color: #00bcd4;
+}
+a.read-more-link:hover::after {
+	background-color: #00bcd4;
+}
+
+/* Buttons */
+.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background: #00bcd4;
+}
+.button::before {
+	/* background-image: 2 colors - see in "Sky Blue 14" */
+}
+.button.button-medium {
+	color: #00bcd4;
+	border-color: #00bcd4;
+}
+.button.button-medium::before {
+	background: #00bcd4;
+}
+.stripe-secondary-color-bg .button:not(.button-grey):not(.button-colored):not(.button-medium) {
+	background-color: rgba(0, 188, 212, 0.75); /* #00bcd4 */
+}
+
+/* Stripe Sections */
+.stripe-upper-bg-primary-gradient > .stripe-upper-bg::before { /* !!! 2 colors */
+	background-image: -webkit-linear-gradient(135deg, rgba(80, 115, 133, 0.4), rgba(0, 188, 212, 0.4), rgba(80, 115, 133, 0.4));
+	background-image: -o-linear-gradient(135deg, rgba(80, 115, 133, 0.4), rgba(0, 188, 212, 0.4), rgba(80, 115, 133, 0.4));
+	background-image: linear-gradient(135deg, rgba(80, 115, 133, 0.4), rgba(0, 188, 212, 0.4), rgba(80, 115, 133, 0.4)); /* #507385 & #00bcd4 */
+}
+.stripe-upper-bg-mix-gradient > .stripe-upper-bg::before {
+	background-image: -webkit-linear-gradient(135deg, rgba(0, 188, 212, 0.4), rgba(0, 188, 212, 0), rgba(0, 188, 212, 0.4));
+	background-image: -o-linear-gradient(135deg, rgba(0, 188, 212, 0.4), rgba(0, 188, 212, 0), rgba(0, 188, 212, 0.4));
+	background-image: linear-gradient(135deg, rgba(0, 188, 212, 0.4), rgba(0, 188, 212, 0), rgba(0, 188, 212, 0.4)); /* #00bcd4 */
+}
+
+/* Testimonials */
+.dark-colored-bg .testimonial-main-style-1 .testimonial-item .author-image span, /* placeholder for the author's photo */
+.dark-colored-bg .testimonial-main-style-2 .testimonial-item .author-image span {
+	background-color: rgba(0, 188, 212, 0.5); /* #00bcd4 */
+}
+.stripe-secondary-color-bg .testimonial-main-style-1 .testimonial-item .author-image span,
+.stripe-secondary-color-bg .testimonial-main-style-2 .testimonial-item .author-image span {
+	background-color: rgba(0, 188, 212, 0.7); /* #00bcd4 */
+}
+.testimonial-main-style-2 .testimonial-item .author-info h5 {
+	color: #00bcd4;
+}
+
+/* Accordion / Toggle */
+.toggle-trigger:hover a {
+	color: #00bcd4;
+}
+
+/* Sidebar */
+#sidebar .widget-subscription-form.secondary-color-bg .subscription-form input[type="submit"] {
+	background-color: rgba(0, 188, 212, 0.75); /* #00bcd4 */
+}
+
+/* Footer */
+@media (min-width: 571px) and (max-width: 991px) {
+	#footer.footer-style-1 .col-xs-12.col-md-3 .contact-phone a:hover,
+	#footer.footer-style-1 .col-xs-12.col-md-3 .contact-email a:hover {
+		color: #00bcd4;
+	}
+}
+@media (min-width: 571px) and (max-width: 767px) {
+	#footer.footer-style-2 .col-xs-12.col-sm-4 .contact-phone a:hover,
+	#footer.footer-style-2 .col-xs-12.col-sm-4 .contact-email a:hover {
+		color: #00bcd4;
+	}
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Sky Blue 14 - #00a5d4 / rgb(0, 165, 212)
+/*-----------------------------------------------------------------------------------*/
+
+/* Typography */
+a {
+	color: #00a5d4;
+}
+p.text-secondary-color a:hover {
+	color: #00a5d4;
+}
+a.read-more-link::after {
+	background-color: #00a5d4;
+}
+
+/* Buttons */
+.button::before { /* !!! 2 colors */
+	background-image: -webkit-linear-gradient(bottom, #00bcd4, #00a5d4);
+	background-image: -o-linear-gradient(bottom, #00bcd4, #00a5d4);
+	background-image: linear-gradient(to top, #00bcd4, #00a5d4);
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+	background: #00a5d4;
+}
+
+/* Icon Boxes */
+.icon-boxes.top-icon-box.icon-large .box-icon.primary-color i,
+.icon-boxes.top-icon-box.icon-small .box-icon.primary-color i,
+.icon-boxes.top-icon-box.box-filled-bg .box-icon.primary-color i {
+	color: #00a5d4;
+}
+.icon-boxes.left-icon-box.icon-large .box-icon.primary-color i,
+.icon-boxes.left-icon-box.icon-medium .box-icon.primary-color i,
+.icon-boxes.left-icon-box.icon-heading .box-icon.primary-color i {
+	color: #00a5d4;
+}
+
+/* Sidebar */
+#sidebar .widget-subscription-form.secondary-color-bg .subscription-form input[type="submit"]:hover {
+	background-color: rgba(0, 165, 212, 0.75); /* #00a5d4 */
+}
+
+/* Footer */
+@media (min-width: 571px) and (max-width: 991px) {
+	#footer.footer-style-1 .col-xs-12.col-md-3 .contact-phone,
+	#footer.footer-style-1 .col-xs-12.col-md-3 .contact-email {
+		color: #00a5d4;
+	}
+}
+@media (min-width: 571px) and (max-width: 767px) {
+	#footer.footer-style-2 .col-xs-12.col-sm-4 .contact-phone,
+	#footer.footer-style-2 .col-xs-12.col-sm-4 .contact-email {
+		color: #00a5d4;
+	}
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Backgrounds
+/*-----------------------------------------------------------------------------------*/
+#header {
+	background-image: url(../../images/backgrounds/primary-color/sky-blue/dots-bg.svg);
+}
+.stripe-memphis-bg > .stripe-upper-bg::after {
+	background-image: url(../../images/backgrounds/primary-color/sky-blue/memphis-bg-primary.svg); /* color 12 */
+}
+.small-bar::after,
+.small-bar.grey-bar::after {
+	background-image: url(../../images/backgrounds/primary-color/sky-blue/zigzag-primary.svg); /* color 3 */
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Icons
+/*-----------------------------------------------------------------------------------*/
+a.read-more-link-small::before {
+	background-image: url(../../images/icons/primary-color/sky-blue/link-arrow-long-primary1.svg); /* color 14 */
+}
+a.read-more-link-small::after {
+	background-image: url(../../images/icons/primary-color/sky-blue/link-arrow-long-primary2.svg); /* color 13 */
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Icon Boxes - other color
+/*-----------------------------------------------------------------------------------*/
+.icon-boxes .box-icon.other-color i {
+	color: #1dca7f; /* green */
+}

@@ -1,0 +1,140 @@
+/*
+	1) Logo & Header
+	2) "Custom Background Image" Stripe Section
+	3) Contact Photo
+*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	1. Logo & Header
+/*-----------------------------------------------------------------------------------*/
+
+/* is-hidden */
+.is-hidden {
+      display: none !important;
+    }
+
+#logo > a {
+	/* Set the width of your logo (185px - the width of theme's default logo image) */
+	width: 185px;
+}
+
+/* If your logo is too high, increase this value */
+#navigation {
+	/* 40px - default value */
+	margin-top: 40px;
+}
+#header.extended #navigation {
+	/* 12px - default value */
+	margin-top: 12px;
+}
+
+/* If your logo is too high, increase this value (130px - default value) */
+#header .container {
+	min-height: 130px;
+}
+#home-header,
+#hero-content .content-wrapper {
+	padding-top: 130px;
+}
+#hero-content.gradient-bg .content-wrapper::after {
+	top: 130px;
+}
+
+/* If your logo is too high, increase this value (144px - default value) */
+#header.extended .container {
+	min-height: 144px;
+}
+#header.extended + #main #home-header,
+#header.extended + #main #hero-content .content-wrapper {
+	padding-top: 144px;
+}
+#header.extended + #main #hero-content.gradient-bg .content-wrapper::after {
+	top: 144px;
+}
+
+/* If your logo is too high, increase this value (115px - default value) */
+@media (max-width: 991px) {
+	#header .container,
+	#header.extended .container {
+		height: 115px;
+		min-height: 115px; /* 115px = 55px (theme's default logo height) + 30px*2 (margins: top and bottom) */
+	}
+	#home-header,
+	#header.extended + #main #home-header,
+	#hero-content .content-wrapper,
+	#header.extended + #main #hero-content .content-wrapper {
+		padding-top: 115px;
+	}
+	#hero-content.gradient-bg .content-wrapper::after,
+	#header.extended + #main #hero-content.gradient-bg .content-wrapper::after {
+		top: 115px;
+	}
+}
+
+/* If your logo is too high, increase the "top" value */
+#header {
+	/* 100px - default value */
+	background-position: top 100px right 30px; /* dots-bg.svg */
+}
+@media (min-width: 571px) and (max-width: 991px) {
+	/* 85px - default value */
+	#header {
+		background-position: top 85px right 7px;
+	}
+}
+@media (min-width: 1850px) {
+	#header {
+		/* 55px - default value */
+		background-position: top 55px left 33%;
+	}
+	#header.extended {
+		/* 70px - default value */
+		background-position: top 70px left 33%;
+	}
+}
+
+@media (min-width: 992px) {
+	body.sticky-menu-active #logo img {
+		max-height: 55px; /* Set the max-height of your logo for "sticky" header (55px - the height of theme's default logo image) */
+	}
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	2. "Custom Background Image" Stripe Section
+/*-----------------------------------------------------------------------------------*/
+
+/* Here your should set your images for the "Custom Background Image" stripe section */
+
+.stripe-custom-bg-image1 > .stripe-upper-bg {
+	background-image: url(../images/custom-bg-image-1.jpg);
+}
+.stripe-custom-bg-image2 > .stripe-upper-bg {
+	background-image: url(../images/custom-bg-image-2.jpg);
+}
+.stripe-custom-bg-image3 > .stripe-upper-bg {
+	background-image: url(../images/custom-bg-image-3.jpg);
+}
+.stripe-custom-bg-image4 > .stripe-upper-bg {
+	background-image: url(../images/custom-bg-image-4.jpg);
+}
+.stripe-custom-bg-image5 > .stripe-upper-bg {
+	background-image: url(../images/custom-bg-image-5.jpg);
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	3. Contact photo in "Contact Details" Stripe Section
+/*-----------------------------------------------------------------------------------*/
+
+/* Here your should set your image for the contact photo in "Contact Details" stripe section */
+.stripe-contact-details .contact-photo {
+	background-image: url(../images/contact-540x500.jpg);
+}
+
+@media (max-width: 767px) {
+	.stripe-contact-details .contact-photo {
+		height: 500px; /* Set the height of your contact photo background (should be less than or equal to the image height) */
+	}
+}
