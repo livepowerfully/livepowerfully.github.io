@@ -34,12 +34,12 @@
    ========================================================================== */
    
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+/*  font-weight: 400;*/
   font-size: 16px;
   overflow-x: hidden;
-  color: #8f8f8f;
+  color: #414141;
 }
 /* Google sheet submission*/
 .is-hidden {
@@ -68,9 +68,10 @@ body {
 /* Dynamic Image ends*/
 
 p {
-  font-weight: 300;
-  color: #8f8f8f;
+/*  font-weight: 300;*/
+  color: #414141;
   font-size: 18px;
+  text-align: justify;
 }
 
 h1,
@@ -110,7 +111,9 @@ li {
 }
 
 b,
-strong { font-weight: 500; }
+strong { 
+/*    font-weight: 500; */
+}
 
 /* ==========================================================================
    2.hero section
@@ -534,6 +537,7 @@ background: url(../img/bg1.jpg) center center no-repeat;
   padding: 0 16px .75em;
   font-size: 18px;
   font-weight: 300;
+  text-align: justify;
 }
 
 .panel-title {
@@ -834,9 +838,9 @@ figure,
 
 .cta-signup-form {
   background: #fff;
-  padding: 1.5em 16px;
+/*  padding: 1.5em 16px;*/
   box-shadow: 0 1px 25px 0 rgba(107, 107, 107, 0.1);
-  margin-top: 3em;
+/*  margin-top: 3em;*/
 }
 
 .cta-signup-form h2 {
@@ -953,7 +957,7 @@ select.form-control {
   color: #fff;
 }
 
-#modal-contact-form .modal-body { padding: 3em 1em; }
+/*#modal-contact-form .modal-body { padding: 3em 1em; }*/
 
 .contact-form .section-header { margin-bottom: 3em; }
 
@@ -1187,7 +1191,7 @@ body { padding: 0 !important; }
 }
 
 .sub-modal .modal-body {
-  background: #f5f5f5;
+  background: #fff;
   padding: 1.5em 16px;
 }
  @-webkit-keyframes horizontal {
@@ -1403,7 +1407,7 @@ body { padding: 0 !important; }
   display: inline-block;
 }
 
-#modal-contact-form .modal-body { padding: 3em; }
+/*#modal-contact-form .modal-body { padding: 3em; }*/
 
 .modal button.close { right: 0; }
 

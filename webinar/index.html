@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-
     <head>
         <link href="http://www.fonts.googleapis.com/css.css" rel="stylesheet">
         <meta charset="utf-8">
@@ -38,8 +35,9 @@
         <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png">
         <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        <!--Favicon end-->
 
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <!--Favicon end-->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/owl.carousel.css" rel="stylesheet">
@@ -75,7 +73,6 @@
                 <p><i class="fa fa-exclamation-triangle"></i>Time Left:</p>
                 <span id="clock"></span> </div>
             <!--countdown end-->
-
         </div>
 
         <!--Alert message end-->
@@ -83,9 +80,7 @@
         <!--hero section-->
 
         <header class="hero-section" id="hero-section">
-
             <!--navigation-->
-
             <nav class="navbar navbar-default" data-spy="affix" data-offset-top="450">
                 <div class="container">
                     <div class="navbar-header"> <a class="navbar-brand" href="index.html#"><img class="logo" alt="logo" src="img/LPLogoClean_Final150px.png" style="height: 60px; width: auto; margin-top: -20px;"><img class="logo-nav" alt="logo-nav" src="img/LPLogoClean_Final150px.png" style="height: 60px; width: auto; margin-top: -20px;"></a> </div>
@@ -97,65 +92,65 @@
             </nav>
 
             <!--Popup form if any will be added here-->
-            
+
             <!--navigation end-->
             <!--Subscription form Modal -->
-            
+
             <div class="modal fade sub-modal" id="reg-modal" tabindex="-1" role="dialog" aria-labelledby="sub-modal-label">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
-                    <section class="cta-form">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <form name="submit-to-google-sheet" id="cta-signup-form" class="cta-signup-form">
-                            <header class="text-center">
-                                <h2>Join the Webinar</h2>
-                            </header>
-                            <div id="mc-error-cta"><i class="fa fa-exclamation-triangle"></i> Please enter a value</div>
-                            <div class="status alert "></div>
-                            <div id="mc-success-cta"><i class="fa fa-envelope"></i> Awesome! We have sent you a confirmation email</div>
-                            <div class="form-group"> <i class="fa fa-user"></i>
-                                <input type="text" value="" name="FNAME" class="form-control input-lg" id="input-name" placeholder="Your name"
-                                    required>
-                            </div>
-                            <div class="form-group"> <i class="fa fa-user"></i>
-                                <input type="text" value="" name="CNUMBER" class="form-control input-lg" id="input-cnumber" placeholder="Contact number"
-                                    required>
-                            </div>
-                            <div class="form-group"> <i class="fa fa-envelope-o"></i>
-                                <input type="email" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Email address"
-                                    required>
-                            </div>
-                            <!--            <div class="form-group"> <i class="fa fa-comment-o"></i>
-                                                                    <select name="MMERGE2" class="form-control">
-                                                                        <option>How did you find us?</option>
-                                                                        <option>Blog</option>
-                                                                        <option>Google</option>
-                                                                        <option>Facebook</option>
-                                                                        <option>Newsletter</option>
-                                                                    </select>
-                                                                </div>-->
-                            <div class="form-btn">
-                                <button type="submit" class="btn" id="signup-frm-submit" name="Schedule a Session" value="Schedule a Session">CLAIM YOUR SPOT NOW</button>          
-                                  
-                           </div>
-                            
-                        </form>
-                        <!--Submit Script-->
-                        <div class="loading js-loading is-hidden">
-                            <div class="loading-spinner">
-                                <svg>
-                                    <circle cx="25" cy="25" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /></svg>
-                            </div>
+                        <div class="modal-header">
+                            <h2 class="modal-title text-center" id="ModalLabel">Join the Webinar</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         </div>
-                        <p class="js-success-message is-hidden">Your Data has been Successfully Submitted you will recieve our email shortly.</p>
-                        <p class="js-error-message is-hidden">Error in Submitting the Data please refresh the Page and try Again! or Submit
-                            your details in the Chat Section below.</p>
-                        <!--Submit Script Ends-->
-                    </section>
+                        <div class="modal-body">
+                            <form name="submit-to-google-sheet" id="cta-signup-form">
+                                <div id="mc-error-cta"><i class="fa fa-exclamation-triangle"></i> Please enter a value</div>
+                                <div class="status alert "></div>
+                                <div id="mc-success-cta"><i class="fa fa-envelope"></i> Awesome! We have sent you a confirmation email</div>
+                                <div class="form-group"> <i class="fa fa-user"></i>
+                                    <input type="text" value="" name="FNAME" class="form-control input-lg" id="input-name" placeholder="Your name"
+                                           required>
+                                </div>
+                                <div class="form-group"> <i class="fa fa-user"></i>
+                                    <input type="text" value="" name="CNUMBER" class="form-control input-lg" id="input-cnumber" placeholder="Contact number"
+                                           required>
+                                </div>
+                                <div class="form-group"> <i class="fa fa-envelope-o"></i>
+                                    <input type="email" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Email address"
+                                           required>
+                                </div>
+                                <!--            <div class="form-group"> <i class="fa fa-comment-o"></i>
+                                                                        <select name="MMERGE2" class="form-control">
+                                                                            <option>How did you find us?</option>
+                                                                            <option>Blog</option>
+                                                                            <option>Google</option>
+                                                                            <option>Facebook</option>
+                                                                            <option>Newsletter</option>
+                                                                        </select>
+                                                                    </div>-->
+                                <div class="form-btn">
+                                    <button type="submit" class="btn" id="signup-frm-submit" name="Schedule a Session" value="Schedule a Session">CLAIM YOUR SPOT NOW</button>
+
+                                </div>
+
+                            </form>
+                            <!--Submit Script-->
+                            <div class="loading js-loading is-hidden">
+                                <div class="loading-spinner">
+                                    <svg>
+                                    <circle cx="25" cy="25" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /></svg>
+                                </div>
+                            </div>
+                            <p class="js-success-message is-hidden">Your Data has been Successfully Submitted you will recieve our email shortly.</p>
+                            <p class="js-error-message is-hidden">Error in Submitting the Data please refresh the Page and try Again! or Submit
+                                your details in the Chat Section below.</p>
+                            <!--Submit Script Ends-->
+                        </div>
                     </div>
                 </div>
             </div>
-            
+
             <!--Subscription form Modal end-->
             <!--welcome message-->
 
@@ -164,9 +159,9 @@
                     <div class="col-md-12">
                         <h1>Webinar <span class="rotate">Sunday 28th October 2018, Time 6:30 pm IST , Duration 1 Hour, FREE</span></h1>
                         <h2>I can help you double your existing score in JEE Main and Advanced!</h2>
-                        <div class="cta-btn"> <a href="#popup-form" data-toggle="modal" data-target="#reg-modal" class="btn">Register Now</a>
-                            <p>* Limited registration only. Register before we're filled.</p>
-                        </div>
+                        <div class="cta-btn"><a href="#popup-form" data-toggle="modal" data-target="#reg-modal" class="btn">Register Now</a></div>
+                        <br/>
+                        <center style="color:#fff;">* Limited registration only. Register before we're filled.</center>
                     </div>
                 </div>
             </section>
@@ -186,7 +181,7 @@
                     <h3>Topics that will be covered in this webinar(Click to Read)</h3>
                 </header>
                 <div class="row">
-                <h3>Video: Story of a IIT JEE Student.</h3>
+                    <h3>Video: Story of a IIT JEE Student.</h3>
                     <div class="col-md-6 col-md-push-6">
                         <div class="embed-responsive embed-responsive-16by9 text-center">
 
@@ -297,12 +292,11 @@
         <section class="host section-spacing" id="host">
             <div class="container">
                 <header class="section-header text-center">
-                    <h2><strong>About The Host<strong></h2>
+                    <h2><strong>About The Host</strong></h2>
                     <h3>Expert who will be conducting this webinar</h3>
                 </header>
 
                 <!--host info-->
-
                 <div class="row">
                     <div class="col-md-6 text-center"> <img src="img/host.jpg" alt="Gauri Kadam"> </div>
                     <div class="col-md-6">
@@ -310,11 +304,11 @@
                             <h4>Gauri Kadam</h4>
                             <h5>Study Coach and Mentor</h5>
                             <hr>
-                            <p>Gauri Kadam has got a rich experience of <strong>10 years</strong> in Guiding, Coaching & Mentoring students to
+                            <p>Gauri Kadam has got a rich experience of <b>10 years</b> in Guiding, Coaching & Mentoring students to
                                 follow their dreams & achieve them. <br>Under her expert guidance, students were able to join the prestigious
-                                <strong>IITs</strong>, <strong>NITs</strong>, <strong>BITS</strong>, <strong>IISERs</strong> and different medical
+                                <b>IITs</b>, <b>NITs</b>, <b>BITS</b>, <b>IISERs</b> and different medical
                                 and dental colleges. The intensity of her work can be gauged by the fact that few of her students are currently in
-                                universities like <strong>MIT</strong> (USA), <strong>Oxford University</strong>(London), <strong>LMU</strong>
+                                universities like <b>MIT</b> (USA), <b>Oxford University</b>(London), <b>LMU</b>
                                 (Germany)</p>
                             <!--          <img src="img/signature.svg" alt="Host signature" class="signature">-->
 
@@ -335,7 +329,6 @@
                 </div>
 
                 <!--host info end-->
-
             </div>
         </section>
 
@@ -370,13 +363,13 @@
         <!--counter end-->
 
         <!--Reviews-->
-        
+
         <div class="reviews text-center section-spacing" id="reviews">
             <div class="container">
                 <ul class="owl-carousel owl-theme">
                     <li class="item">
                         <!--review 1-->
-        
+
                         <blockquote> <i class="fa fa-quote-left"></i>
                             <p>I credit huge part of my success to lessons I learnt from Guari Kadam ma'am during my journey
                                 through class 12. Not only
@@ -386,12 +379,12 @@
                             <cite><a href="http://www.mandargogate.com" target="_blank">Mandar Gogate</a><span>Oxford
                                     University, London</span></cite>
                         </blockquote>
-        
+
                         <!--review 1 end-->
                     </li>
                     <li class="item">
                         <!--review 2-->
-        
+
                         <blockquote> <i class="fa fa-quote-left"></i>
                             <p>Gauri Kadam Ma'am always inspired me to study, Ma'am helped me effectively plan my studies, and
                                 solved all my emotional
@@ -400,12 +393,12 @@
                             <figure><img src="img/review-2.jpg" alt="user" class="img-circle"> </figure>
                             <cite>Shivani Nandgaonkar<span>IIT Bombay</span></cite>
                         </blockquote>
-        
+
                         <!--review 2 end-->
                     </li>
                     <li class="item">
                         <!--review 3-->
-        
+
                         <blockquote> <i class="fa fa-quote-left"></i>
                             <p>During preparing for IIT-JEE, I used to face lots of challenges in day to day studies. Many a
                                 times, I was on the verge
@@ -415,12 +408,12 @@
                             <figure><img src="img/review-3.jpg" alt="user" class="img-circle"> </figure>
                             <cite>Varad Kabade<span>IIT Delhi</span></cite>
                         </blockquote>
-        
+
                         <!--review 3 end-->
                     </li>
                     <li class="item">
                         <!--review 4-->
-        
+
                         <blockquote> <i class="fa fa-quote-left"></i>
                             <p>I liked Planning and Working on my plans, but somehow I couldn't do it alone, thats when Gauri
                                 Ma'am stepped in my life
@@ -429,13 +422,13 @@
                             <figure><img src="img/review-4.jpg" alt="user" class="img-circle"> </figure>
                             <cite>Aaditi Basarkar<span>BITS Goa</span></cite>
                         </blockquote>
-        
+
                         <!--review 4 end-->
                     </li>
                 </ul>
             </div>
         </div>
-        
+
         <!--Reviews end-->
 
         <!--Benefits cta-->
@@ -507,7 +500,7 @@
 
                 <!--cta signup form-->
 
-                
+
 
                 <!--cta signup form end-->
 
@@ -526,45 +519,45 @@
             </header>
             <ul class="owl-carousel owl-theme">
               <li class="item">
-        
+
                 content 1
                 <div class="row">
                   <div class="col-md-11 center-block">
                     <div class="embed-responsive embed-responsive-16by9">
-        
+
                       For vimeo
-                       <iframe class="embed-responsive-item" src="http://player.vimeo.com/video/xxxxxxxxxxx?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"></iframe> 
+                       <iframe class="embed-responsive-item" src="http://player.vimeo.com/video/xxxxxxxxxxx?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"></iframe>
                       vimeo end
-        
+
                       For youtube
                       <iframe class="embed-responsive-item" src="../www.youtube.com/embed/bZx8rPd-PKQ.htm"></iframe>
                       youtube end
-        
+
                     </div>
                   </div>
                 </div>
                 content 1 end
-        
+
               </li>
               <li class="item">
                 content 2
                 <div class="row">
                   <div class="col-md-11 center-block">
                     <div class="embed-responsive embed-responsive-16by9">
-        
+
                       For vimeo
-                       <iframe class="embed-responsive-item" src="http://player.vimeo.com/video/xxxxxxxxxxx?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"></iframe> 
+                       <iframe class="embed-responsive-item" src="http://player.vimeo.com/video/xxxxxxxxxxx?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"></iframe>
                       vimeo end
-        
+
                       For youtube
                       <iframe class="embed-responsive-item" src="../www.youtube.com/embed/4RWHDnjbtgw.htm"></iframe>
                       youtube end
-        
+
                     </div>
                   </div>
                 </div>
                 content 2 end
-        
+
               </li>
             </ul>
           </div>
@@ -583,7 +576,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="cta-btn"> <a href="" data-toggle="modal" data-target="#reg-modal" class="btn">CLAIM YOUR SPOT NOW</a>
-                            <p>Can't make it? Join anyway we will send you the recording.</p>
+                            <br/><br/>
+                            <center>Can't make it? Join anyway we will send you the recording.</center>
                         </div>
                         <div class="support">
                             <h4>Any questions?</h4>
@@ -614,7 +608,7 @@
 
         <!--Footer-->
 
-        <footer class="site-footer text-center section-spacing" id="site-footer"> <a href="index.html#" data-toggle="modal" data-target="#sub-modal" class="newsletter-sub"><i class="fa fa-envelope faa-horizontal animated fa-3x"></i></a>
+        <footer class="site-footer text-center section-spacing" id="site-footer"> <a href="javascript:;" data-toggle="modal" data-target="#sub-modal" class="newsletter-sub"><i class="fa fa-envelope faa-horizontal animated fa-3x"></i></a>
             <div class="container">
 
                 <!--share-->
@@ -630,7 +624,10 @@
 
                 <div class="row">
                     <div class="col-md-4">
-                        <p class="footer-links"><a href="index.html#" data-toggle="modal" data-target="#modal-terms">Terms of Use</a><a href="index.html#" data-toggle="modal" data-target="#modal-terms">Privacy Policy</a></p>
+                        <p class="footer-links">
+                            <a href="javascript:;" data-toggle="modal" data-target="#modal-terms">Terms of Use</a>
+                            <a href="javascript:;" data-toggle="modal" data-target="#modal-terms">Privacy Policy</a>
+                        </p>
                     </div>
                     <div class="col-md-4">
                         <p class="footer-logo"><img src="img/LPLogoClean_Final150px.png" alt="Live Powerfully" style="height: 60px; width: auto; margin-top: -20px;"></p>
@@ -658,20 +655,20 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title" id="sub-modal-label">Subscribe To Our Newsletter</h4>
                         <h5 class="modal-title">Get Free Tips on How to Crack JEE, NEET and other entrance exams.</h5>
-                        </div>
+                    </div>
                     <div class="modal-body">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-12" >
-                                   <form id="mc-form">
-                                       <center>
-                                       <a class="btn" href="mailto:hello@livepowerfully.in?subject=Sign%20me%20up%20for%20the%20IIT%20JEE%2F%20NEET%20Newsletter">One Click SUBSCRIBE </a>
-                                       </center>
+                                    <form id="mc-form">
+                                        <center>
+                                            <a class="btn" href="mailto:hello@livepowerfully.in?subject=Sign%20me%20up%20for%20the%20IIT%20JEE%2F%20NEET%20Newsletter">One Click SUBSCRIBE </a>
+                                        </center>
                                     </form>
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -807,21 +804,21 @@
 
             const scriptURL = 'https://script.google.com/macros/s/AKfycbzpf7Wyn3nzkf6hxcGqPr6e9XlSBCdCECEJ-WTBUGA56RRyaEme/exec'
             /*
-                    const form = document.forms['submit-to-google-sheet']
-    
-                    form.addEventListener('submit', e => {
-                        e.preventDefault()
-                        fetch(scriptURL, {
-                                method: 'POST',
-                                body: new FormData(form)
-                            })
-                            /* .then(response => console.log('Success!', response))
-                            .catch(error => console.error('Error!', error.message)) */
+             const form = document.forms['submit-to-google-sheet']
+                                     
+             form.addEventListener('submit', e => {
+             e.preventDefault()
+             fetch(scriptURL, {
+             method: 'POST',
+             body: new FormData(form)
+             })
+             /* .then(response => console.log('Success!', response))
+             .catch(error => console.error('Error!', error.message)) */
             /*				.then(response =>message.innerHTML="Data Submitted Successfully,we will get back to you Shortly")
-                            .catch(error => message.innerHTML="Unexpected error occured, please try again"))
-    
-                    })
-            */
+             .catch(error => message.innerHTML="Unexpected error occured, please try again"))
+                                     
+             })
+             */
 
             const form = document.forms['submit-to-google-sheet']
             const loading = document.querySelector('.js-loading')
@@ -835,8 +832,8 @@
                     method: 'POST',
                     body: new FormData(form)
                 })
-                    .then(response => showSuccessMessage(response))
-                    .catch(error => showErrorMessage(error))
+                        .then(response => showSuccessMessage(response))
+                        .catch(error => showErrorMessage(error))
             })
 
             function showLoadingIndicator() {
@@ -875,8 +872,5 @@
             })();
         </script>
         <!--End of Tawk.to Script-->
-
     </body>
-
-    
 </html>
