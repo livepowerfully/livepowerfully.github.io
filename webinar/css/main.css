@@ -41,11 +41,31 @@ body {
   overflow-x: hidden;
   color: #8f8f8f;
 }
-
+/* Google sheet submission*/
 .is-hidden {
       display: none !important;
     }
+/* Google sheet submission ends*/
 
+/* Dynamic Image*/
+.image_full{
+   display:block;
+  }
+
+ .image_mobile{
+  display:none;
+ }
+
+@media (max-width: 640px) and (min-width: 320px){
+  .image_full{
+   display:none;
+  }
+
+  .image_mobile{
+   display:block;
+  }
+}
+/* Dynamic Image ends*/
 
 p {
   font-weight: 300;
@@ -95,13 +115,25 @@ strong { font-weight: 500; }
 /* ==========================================================================
    2.hero section
    ========================================================================== */
+ 
   
+ 
+
+
 .hero-section {
   padding: 1.5em 0 6.75em;
   background: url(../img/bg.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
+
+@media (max-width: 640px) and (min-width: 320px){
+.hero-section{
+background: url(../img/bg1.jpg) center center no-repeat;
+} 
+
+} 
+
 
 .hero-section::before {
   content: '';
