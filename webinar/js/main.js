@@ -64,7 +64,7 @@ $(function () {
      ========================================================================== */
 
 
-    $('#clock').countdown('2018/10/28 18:30:00') //Change time here. Time format 'y/m/d  h/m/s' 
+    $('#clock').countdown('2018/11/04 18:30:00') //Change time here. Time format 'y/m/d  h/m/s' 
             .on('update.countdown', function (event) {
                 var format = '%H:%M:%S';
                 if (event.offset.days > 0) {
