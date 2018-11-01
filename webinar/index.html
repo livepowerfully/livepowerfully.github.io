@@ -44,6 +44,26 @@
         <link href="css/jssocials.css" rel="stylesheet">
         <link href="css/magnific-popup.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
+
+       <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1926605414313653');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1926605414313653&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
     </head>
     <body>
 
@@ -131,7 +151,7 @@
                                                                     </div>-->
                                 <div class="form-btn">
                                     <button type="submit" class="btn" id="signup-frm-submit" name="Schedule a Session" value="Schedule a Session">CLAIM YOUR SPOT NOW</button>
-
+                                    
                                 </div>
 
                             </form>
@@ -157,7 +177,7 @@
             <section class="container welcome-message text-center">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Webinar <span class="rotate">Sunday 28th October 2018, Time 6:30 pm IST , Duration 1 Hour, FREE</span></h1>
+                        <h1>Webinar <span class="rotate">Sunday 4th November 2018, Time 6:30 pm IST , Duration 1 Hour, FREE</span></h1>
                         <h2>I can help you double your existing score in JEE Main and Advanced!</h2>
                         <div class="cta-btn"><a href="#popup-form" data-toggle="modal" data-target="#reg-modal" class="btn">Register Now</a></div>
                         <br/>
@@ -270,7 +290,7 @@
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-sm-4 col-md-3">
-                                <h3><i class="fa fa-calendar-check-o"></i>28th October</h3>
+                                <h3><i class="fa fa-calendar-check-o"></i>4th November</h3>
                             </div>
                             <div class="col-sm-4 col-md-2">
                                 <h3><i class="fa fa-clock-o"></i>6:30 pm IST</h3>
@@ -784,8 +804,7 @@
         <script src="js/retina.min.js"></script>
         <script src="js/tweetie.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/contact.js"></script>
-
+        
         <!-- Script for integration of google form starts -->
         <script>
             // Initialise plugin: inline element
@@ -858,6 +877,15 @@
             }
         </script>
         <!-- Script for integration of google form ends -->
+
+        <!--Facebook events: Complete Registration script-->
+        <script type="text/javascript"t>
+            $('#$signup-frm-submit').click(function () {
+                        fbq('track', 'CompleteRegistration');
+                    } 
+        </script>
+
+        <!--Facebook events script ENDS-->
 
         <!--Start of Tawk.to Script-->
         <script type="text/javascript">
